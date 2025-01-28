@@ -18,9 +18,9 @@ public class ArrayElementParity {
             if(itemMap.getValue() != 0) {
                 int finalValueNumber = itemMap.getValue();
                 int finalNumber = itemMap.getKey();
-                numberOnlyPosNeg = finalValueNumber > 0 ? finalNumber : -finalNumber; ;
+                numberOnlyPosNeg = finalValueNumber > 0 ? finalNumber : -finalNumber;
             }
-        };
+        }
         return numberOnlyPosNeg;
     }
     public static void main(String[] args) {
