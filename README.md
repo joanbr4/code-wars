@@ -1,5 +1,5 @@
 # CodeWars Challenges: Visit Here
-dashboard
+dashboard, click
 
 A repository filled with codewars challenges from elementary to advanced
 
