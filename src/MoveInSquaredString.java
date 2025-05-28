@@ -6,7 +6,7 @@ import java.util.function.Function;
 /*
 LEVEL: 6Kuy
 
-You are given a string of n lines, each substring being n characters long:
+In this Kata, you are given a string of n lines, each substring being n characters long:
 
 String s = "abcd\nefgh\nijkl\nmnop"
 
@@ -19,7 +19,8 @@ rot_90_clock(s) => "miea\nnjfb\nokgc\nplhd"
 Selfie and diag1: It is initial string + string obtained by symmetry with respect to the main diagonal.
 selfie_and_diag1(s) => "abcd|aeim\nefgh|bfjn\nijkl|cgko\nmnop|dhlp"
 
-* */
+*/
+
 public class MoveInSquaredString {
         public static String diag1Sym(String strng) {
             List<String> finalArray = new ArrayList<>();
